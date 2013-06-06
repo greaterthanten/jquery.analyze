@@ -27,5 +27,5 @@ Pull requests are very welcome!
 
 ## Authors
 
-[Dave Found](https://github.com/davefound)
-[Greater Than Ten](https://github.com/greaterthanten)
+- [Dave Found](https://github.com/davefound)
+- [Greater Than Ten](https://github.com/greaterthanten)
