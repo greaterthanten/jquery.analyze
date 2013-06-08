@@ -1,4 +1,4 @@
-# jquery.analyze [![Build Status](https://travis-ci.org/greaterthanten/jquery.analyze.png?branch=master)](https://travis-ci.org/greaterthanten/jquery.analyze)
+# jquery.analyze
 
 jQuery plugin that automatically tracks user events out-of-the-box.
 
