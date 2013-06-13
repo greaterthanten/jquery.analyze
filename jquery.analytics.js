@@ -33,7 +33,9 @@
 		var label = $el.text();
 		label = label || $el.attr('title');
 		var action = 'click';
-		if( ($el.attr('href') == '#' || $el.attr('href').match(/javascript[ ]*:[ ]*void\(0\).*/)) && $el.attr('onclick') ){
+		var href = $el.attr('href');
+		var onclick = $el.attr('onclick');
+		if( (href == '#' || (typeof href == 'undefined' || href.match(/javascript[ ]*:[ ]*void\(0\).*/))) && onclick ){
 			action = 'click : ' + $el.attr('onclick');
 		}
 		
