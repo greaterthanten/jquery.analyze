@@ -26,6 +26,9 @@
 	});
 	
 	var sendEvent = function(opts){
+		if( typeof ga == 'undefined' ){
+			return;
+		}
 		ga('send', 'event', opts.category, opts.action, opts.label, opts.value);
 	};
 		
